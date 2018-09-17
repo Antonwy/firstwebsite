@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(90, 208, 216);
+}
+
+#logo {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+    background-image: url('../images/instagram.svg');
+}
+
+.headerClass {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.buttonClass {
+    width: 100px;
+    height: 30px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    border: none;
+    border-radius: 5px;
+    color: rgb(37, 37, 37);
+    box-shadow: 0px 3px 10px 2px rgba(107,107,107,0.4);
+    transition: transform 0.25s;
+    outline: none;
+}
+
+.buttonClass:hover{
+    transform: scale(1.2);
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputClass {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 0px solid red;
+    border-radius: 5px;
+    transition: border 250ms;
+    outline: none;
+}
+
+.inputClass:focus {
+    border-bottom: 2px solid red;
+}
+
+
+.alert {
+    width: 90%;
+    max-width: 500px;
+    height: 0px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0px rgba(27, 27, 27, 0.26);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: height 500ms;
+}
+
+.show {
+    height: 200px;
+}
+
+.alert h1 {
+    margin: 0;
+}
+
+.openButton {
+    margin-right: 15px;
+    background-image: linear-gradient(120deg, #8efa84 0%, #c8f48f 100%);
+}
+
+.cancelButton {
+    background-image: linear-gradient(120deg, #fa8484 0%, #f48fa0 100%);
+}
+
+.buttonRow {
+    margin: 20px;
+}
+
+.buttonRow a {
+    text-decoration: none;
+    color: black;
+}
